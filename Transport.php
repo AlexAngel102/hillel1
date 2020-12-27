@@ -4,8 +4,8 @@
 class Transport
 {
 
-    public $hight;
-    public $weight;
+    public int $hight;
+    public int $weight;
 
     public function __construct(int $hight, int $weight)
     {

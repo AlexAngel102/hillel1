@@ -2,10 +2,10 @@
 
 class Laptop
 {
-    public $model;
-    public $processor;
-    public $videocard;
-    public $isTurnedOn = false;
+    public string $model;
+    public string $processor;
+    public string $videocard;
+    public bool $isTurnedOn = false;
 
     public function __construct(string $model, string $processor, string $videocard)
     {
