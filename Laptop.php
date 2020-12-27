@@ -25,11 +25,3 @@ class Laptop
     }
 }
 
-$laptop1 = new Laptop('Lenovo', 'Core-i7', 'GeForce GTX1060');
-var_dump($laptop1);
-echo "<br>";
-$laptop1->turnOn();
-var_dump($laptop1);
-echo "<br>";
-$laptop1->turnOff();
-var_dump($laptop1);
